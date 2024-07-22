@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using School.Service.Abstract;
+using School.Service.Implemntation;
 
 namespace School.Service
 {
@@ -6,6 +8,7 @@ namespace School.Service
     {
         public static IServiceCollection AddServiceDepencies(this IServiceCollection services)
         {
+            services.AddTransient<IStudentService, StudentService>();
             return services;
         }
 

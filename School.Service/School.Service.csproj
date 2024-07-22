@@ -10,9 +10,4 @@
     <ProjectReference Include="..\School.Infrastructure\School.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Abstract\" />
-    <Folder Include="Implemntation\" />
-  </ItemGroup>
-
 </Project>
